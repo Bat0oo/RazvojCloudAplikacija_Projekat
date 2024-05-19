@@ -4,7 +4,7 @@
 
 /.vs/RazvojCloudAplikacija_Projekat/FileContentIndex
 /Portfolio/.vs/Portfolio/FileContentIndex
-node_modules
-.DS_Store
-.env
-build
+/node_modules
+/.DS_Store
+/.env
+/build
