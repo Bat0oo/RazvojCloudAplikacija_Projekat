@@ -4,6 +4,7 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="DataConnectionString" value="UseDevelopmentStorage=true" />
     </ConfigurationSettings>
   </Role>
   <Role name="NotificationService">
@@ -24,29 +25,4 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
     </ConfigurationSettings>
   </Role>
-  <NetworkConfiguration>
-    <VirtualNetworkSite name="portfolioVNet" />
-    <AddressAssignments>
-      <InstanceAddress roleName="PortfolioService">
-        <Subnets>
-          <Subnet name="WebTier" />
-        </Subnets>
-      </InstanceAddress>
-      <InstanceAddress roleName="NotificationService">
-        <Subnets>
-          <Subnet name="WebTier" />
-        </Subnets>
-      </InstanceAddress>
-      <InstanceAddress roleName="HealthMonitoringService">
-        <Subnets>
-          <Subnet name="WebTier" />
-        </Subnets>
-      </InstanceAddress>
-      <InstanceAddress roleName="HealthStatusService">
-        <Subnets>
-          <Subnet name="WebTier" />
-        </Subnets>
-      </InstanceAddress>
-    </AddressAssignments>
-  </NetworkConfiguration>
 </ServiceConfiguration>

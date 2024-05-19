@@ -5,14 +5,12 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>2.9</ProductVersion>
-    <ProjectGuid>0d4e8be2-6ff3-4b99-992b-c3662197caf3</ProjectGuid>
+    <ProjectGuid>9972a0c5-6b26-40ad-91cd-e6b2d5d54410</ProjectGuid>
     <OutputType>Library</OutputType>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Portfolio</RootNamespace>
     <AssemblyName>Portfolio</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
-    <ARMDeployment>True</ARMDeployment>
     <Name>Portfolio</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -41,7 +39,7 @@
   <ItemGroup>
     <ProjectReference Include="..\HealthMonitoringService\HealthMonitoringService.csproj">
       <Name>HealthMonitoringService</Name>
-      <Project>{1612f86c-a5b7-4b23-9b28-fd0d7d0675e4}</Project>
+      <Project>{5977e49d-dafc-4279-a04b-404daeb0217b}</Project>
       <Private>True</Private>
       <RoleType>Worker</RoleType>
       <RoleName>HealthMonitoringService</RoleName>
@@ -49,7 +47,7 @@
     </ProjectReference>
     <ProjectReference Include="..\HealthStatusService\HealthStatusService.csproj">
       <Name>HealthStatusService</Name>
-      <Project>{a3abca35-9765-43d0-868e-94c47052fb6c}</Project>
+      <Project>{6cc03468-7c37-4914-9b16-5a809fbc937f}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
       <RoleName>HealthStatusService</RoleName>
@@ -57,7 +55,7 @@
     </ProjectReference>
     <ProjectReference Include="..\NotificationService\NotificationService.csproj">
       <Name>NotificationService</Name>
-      <Project>{c82768fc-7921-4d19-bb03-3f20c20eefdd}</Project>
+      <Project>{3b736f84-027a-4ebe-a729-5d2f83852097}</Project>
       <Private>True</Private>
       <RoleType>Worker</RoleType>
       <RoleName>NotificationService</RoleName>
@@ -65,7 +63,7 @@
     </ProjectReference>
     <ProjectReference Include="..\PortfolioService\PortfolioService.csproj">
       <Name>PortfolioService</Name>
-      <Project>{e448ce84-a888-49b7-af03-82831879e9d7}</Project>
+      <Project>{8ee3f7de-e67e-43e6-851d-5eb300b88ac8}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
       <RoleName>PortfolioService</RoleName>
@@ -86,7 +84,7 @@
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
-    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">16.0</VisualStudioVersion>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
     <CloudExtensionsDir Condition=" '$(CloudExtensionsDir)' == '' ">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Azure Tools\2.9\</CloudExtensionsDir>
   </PropertyGroup>
   <Import Project="$(CloudExtensionsDir)Microsoft.WindowsAzure.targets" />

@@ -1,83 +1,108 @@
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\HealthStatusService.dll.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\HealthStatusService.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\HealthStatusService.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\csc.exe
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\csc.exe.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\csc.rsp
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\csi.exe
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\csi.exe.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\csi.rsp
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.Managed.Core.targets
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\System.Collections.Immutable.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\System.Reflection.Metadata.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\vbc.exe
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\vbc.exe.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\vbc.rsp
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\VBCSCompiler.exe
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\VBCSCompiler.exe.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Antlr3.Runtime.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Microsoft.Web.Infrastructure.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Microsoft.WindowsAzure.Diagnostics.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Newtonsoft.Json.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Helpers.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Mvc.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Optimization.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Razor.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.WebPages.Deployment.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.WebPages.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.WebPages.Razor.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\WebGrease.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\MonAgentListener.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Helpers.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Mvc.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Optimization.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Razor.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.WebPages.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.WebPages.Deployment.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.WebPages.Razor.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Newtonsoft.Json.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Antlr3.Runtime.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.csproj.AssemblyReference.cache
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.csproj.CoreCompileInputs.cache
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\obj\Debug\HealthSt.0ADD956A.Up2Date
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Newtonsoft.Json.Bson.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Buffers.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Memory.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Net.Http.Formatting.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Numerics.Vectors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Runtime.CompilerServices.Unsafe.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Threading.Tasks.Extensions.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Cors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Http.Cors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Http.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Newtonsoft.Json.Bson.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\Newtonsoft.Json.Bson.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Buffers.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Memory.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Net.Http.Formatting.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Numerics.Vectors.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Runtime.CompilerServices.Unsafe.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Threading.Tasks.Extensions.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Http.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\System.Web.Http.Cors.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\System.Buffers.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\System.Memory.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\System.Numerics.Vectors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthStatusService\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\HealthStatusService.dll.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\HealthStatusService.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\HealthStatusService.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\csc.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\csc.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\csc.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\csi.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\csi.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\csi.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\vbc.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\vbc.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\vbc.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Antlr3.Runtime.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Newtonsoft.Json.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Helpers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Mvc.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Optimization.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Razor.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.WebPages.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\WebGrease.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\MonAgentListener.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Helpers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Mvc.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Optimization.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Razor.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.WebPages.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Newtonsoft.Json.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Antlr3.Runtime.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.csproj.AssemblyReference.cache
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.csproj.CoreCompileInputs.cache
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.csproj.CopyComplete
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\obj\Debug\HealthStatusService.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.Options.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Buffers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.ComponentModel.Annotations.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Memory.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Net.Http.Formatting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Numerics.Vectors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Text.Encodings.Web.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Cors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Http.Cors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Http.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.Options.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Buffers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Memory.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Net.Http.Formatting.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Numerics.Vectors.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Text.Encodings.Web.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Http.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\System.Web.Http.Cors.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\System.Buffers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\System.Memory.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthStatusService\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll

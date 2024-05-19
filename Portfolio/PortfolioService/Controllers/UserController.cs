@@ -5,15 +5,23 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using PortfolioService.Models;
+using User_Data;
 
 namespace PortfolioService.Controllers
 {
     public class UserController : ApiController
     {
+        private readonly UserDataRepository _userRepository;
+
+        public UserController()
+        {
+            _userRepository = new UserDataRepository();
+        }
+
         private static List<User> users = new List<User>
         {
-            new User { Id = 1, Name = "John Doe", Email = "john@example.com" },
-            new User { Id = 2, Name = "Jane Smith", Email = "jane@example.com" }
+            //new User { Id = 1, Name = "John Doe", Email = "john@example.com" },
+            //new User { Id = 2, Name = "Jane Smith", Email = "jane@example.com" }
         };
 
 
@@ -31,15 +39,14 @@ namespace PortfolioService.Controllers
         [Route("api/user/{id}")]
         public IHttpActionResult GetUser(int id)
         {
-            var user = users.FirstOrDefault(u => u.Id == id);
-            if (user == null)
+            //var user = users.FirstOrDefault(u => u.Id == id);
+            //if (user == null)
             {
                 return NotFound();
             }
-            return Ok(user);
+            //return Ok(user);
         }
 
-        // POST api/user
         // POST api/user
         [HttpPost]
         [Route("api/user")]
@@ -56,11 +63,23 @@ namespace PortfolioService.Controllers
 
             try
             {
-                user.Id = users.Count() + 1;
+
+                var userData = new UserData(user.Email)
+                {
+                    FirstName = user.Name,
+                    Email = user.Email
+                };
+
+                _userRepository.AddUser(userData);
+
+                return Ok("Korisnik uspešno dodat.");
+
+                //user.Id = users.Count() + 1;
                 //user.Id = 70;
                 users.Add(user);
                 return Ok(users);
                 //return CreatedAtRoute("DefaultApi", new { id = user.Id }, user);
+
             }
             catch (Exception ex)
             {

@@ -1,85 +1,118 @@
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\PortfolioService.dll.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\PortfolioService.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\PortfolioService.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\csc.exe
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\csc.exe.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\csc.rsp
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\csi.exe
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\csi.exe.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\csi.rsp
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.Managed.Core.targets
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\System.Collections.Immutable.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\System.Reflection.Metadata.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\vbc.exe
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\vbc.exe.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\vbc.rsp
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\VBCSCompiler.exe
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\VBCSCompiler.exe.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Antlr3.Runtime.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Microsoft.Web.Infrastructure.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Microsoft.WindowsAzure.Diagnostics.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Newtonsoft.Json.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Net.Http.Formatting.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Helpers.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Http.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Http.WebHost.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Mvc.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Optimization.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Razor.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.WebPages.Deployment.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.WebPages.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.WebPages.Razor.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\WebGrease.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\MonAgentListener.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Newtonsoft.Json.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Net.Http.Formatting.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Helpers.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Http.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Http.WebHost.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Mvc.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Optimization.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Razor.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.WebPages.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.WebPages.Deployment.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.WebPages.Razor.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Antlr3.Runtime.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\obj\Debug\PortfolioService.csproj.AssemblyReference.cache
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\obj\Debug\PortfolioService.csproj.CoreCompileInputs.cache
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\obj\Debug\Portfoli.A42E9D35.Up2Date
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\obj\Debug\PortfolioService.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\obj\Debug\PortfolioService.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Newtonsoft.Json.Bson.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Buffers.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Memory.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Numerics.Vectors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Runtime.CompilerServices.Unsafe.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Threading.Tasks.Extensions.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Cors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Http.Cors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Newtonsoft.Json.Bson.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\Newtonsoft.Json.Bson.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Buffers.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Memory.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Numerics.Vectors.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Runtime.CompilerServices.Unsafe.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Threading.Tasks.Extensions.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\System.Web.Http.Cors.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\System.Buffers.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\System.Memory.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\System.Numerics.Vectors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\PortfolioService\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\PortfolioService.dll.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\PortfolioService.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\PortfolioService.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\csc.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\csc.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\csc.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\csi.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\csi.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\csi.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\vbc.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\vbc.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\vbc.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Antlr3.Runtime.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Newtonsoft.Json.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Net.Http.Formatting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Helpers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Http.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Http.WebHost.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Mvc.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Optimization.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Razor.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.WebPages.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\User_Data.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\WebGrease.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\MonAgentListener.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\User_Data.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Newtonsoft.Json.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Net.Http.Formatting.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Helpers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Http.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Http.WebHost.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Mvc.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Optimization.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Razor.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.WebPages.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Antlr3.Runtime.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\obj\Debug\PortfolioService.csproj.AssemblyReference.cache
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\obj\Debug\PortfolioService.csproj.CoreCompileInputs.cache
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\obj\Debug\PortfolioService.csproj.CopyComplete
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\obj\Debug\PortfolioService.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\obj\Debug\PortfolioService.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.Options.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Buffers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.ComponentModel.Annotations.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Memory.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Numerics.Vectors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Text.Encodings.Web.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Cors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Http.Cors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\User_Data.dll.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.Options.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Buffers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Memory.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Numerics.Vectors.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Text.Encodings.Web.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\System.Web.Http.Cors.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\System.Buffers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\System.Memory.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll

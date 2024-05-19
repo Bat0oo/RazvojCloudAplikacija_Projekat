@@ -1,45 +1,103 @@
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\HealthMonitoringService.dll.config
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\HealthMonitoringService.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\HealthMonitoringService.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\MonAgentListener.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.csproj.AssemblyReference.cache
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.csproj.CoreCompileInputs.cache
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\obj\Debug\HealthMo.1270908A.Up2Date
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.Bson.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Buffers.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Memory.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Net.Http.Formatting.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Numerics.Vectors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Cors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Http.Cors.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Http.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.Bson.pdb
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.Bson.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Buffers.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Memory.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Net.Http.Formatting.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Numerics.Vectors.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Http.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Http.Cors.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Web.Infrastructure.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Helpers.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Mvc.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Razor.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.Deployment.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.Razor.dll
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Helpers.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Mvc.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Razor.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.Deployment.xml
-D:\fakultet\8 - semestar\Cloud\Portfolio\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\HealthMonitoringService.dll.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\HealthMonitoringService.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\HealthMonitoringService.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\MonAgentListener.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.csproj.AssemblyReference.cache
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.csproj.CoreCompileInputs.cache
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.csproj.CopyComplete
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\obj\Debug\HealthMonitoringService.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.AspNetCore.Cors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Buffers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Memory.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Cors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Http.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.AspNetCore.Cors.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Buffers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Memory.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Http.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\csc.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\csc.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\csc.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\csi.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\csi.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\csi.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\System.Buffers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\System.Memory.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\System.Numerics.Vectors.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\vbc.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\vbc.rsp
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Helpers.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Mvc.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Razor.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Helpers.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Mvc.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.Razor.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Urke\Desktop\CloudProjekat\Portfolio\HealthMonitoringService\bin\Debug\System.Web.WebPages.Razor.xml
