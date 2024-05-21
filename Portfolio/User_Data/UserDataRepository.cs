@@ -3,8 +3,7 @@ using Microsoft.WindowsAzure.Storage.Table;
 using Microsoft.Azure;
 using System.Linq;
 using System;
-
-
+using Microsoft.WindowsAzure.Storage.Blob;
 
 namespace User_Data
 {
@@ -25,6 +24,47 @@ namespace User_Data
             CloudTableClient tableClient = new CloudTableClient(new Uri(_storageAccount.TableEndpoint.AbsoluteUri), _storageAccount.Credentials);
             _table = tableClient.GetTableReference("UserTableTemp");
             _table.CreateIfNotExists();
+
+            InitBlobs();
+        }
+
+        public void InitBlobs()
+        {
+            try
+            {
+                Console.WriteLine("Initializing blob storage...");
+
+                var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("DataConnectionString"));
+                var blobClient = storageAccount.CreateCloudBlobClient();
+                var container = blobClient.GetContainerReference("userimages");
+
+                Console.WriteLine("Creating container if not exists...");
+                container.CreateIfNotExists();
+
+                var permissions = new BlobContainerPermissions
+                {
+                    PublicAccess = BlobContainerPublicAccessType.Blob
+                };
+                container.SetPermissions(permissions);
+
+                Console.WriteLine("Blob container initialized successfully.");
+            }
+            catch (StorageException ex)
+            {
+                Console.WriteLine($"StorageException: {ex.Message}");
+                Console.WriteLine($"Request Information: {ex.RequestInformation}");
+                if (ex.RequestInformation.ExtendedErrorInformation != null)
+                {
+                    Console.WriteLine($"Error Code: {ex.RequestInformation.ExtendedErrorInformation.ErrorCode}");
+                    Console.WriteLine($"Error Message: {ex.RequestInformation.ExtendedErrorInformation.ErrorMessage}");
+                }
+                throw;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception during blob initialization: {ex.Message}");
+                throw;
+            }
         }
 
         public IQueryable<UserData> RetrieveAllUsers()
@@ -70,6 +110,22 @@ namespace User_Data
         {
             return RetrieveAllUsers().Where(s => s.RowKey == email).FirstOrDefault() != null;
         }
+
+        public UserData GetUserByEmail(string email)
+        {
+            try
+            {
+                TableOperation retrieveOperation = TableOperation.Retrieve<UserData>("User", email);
+                TableResult result = _table.Execute(retrieveOperation);
+                return result.Result as UserData;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception during get user by email: {ex.Message}");
+                throw;
+            }
+        }
+
 
         public void RemoveUser(string email)
         {

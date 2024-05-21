@@ -1,0 +1,73 @@
+/* AuthForm.css */
+
+.Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    width: 120px;
+    margin-right: 1rem;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  .btn-primary {
+    width: 100%;
+  }
+  
+  .label-input-spacing {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-margin-left {
+    margin-left: 1rem;
+  }
+  
+  .password-input-margin-left {
+    margin-left: 1rem;
+  }
+  
+  .name-input-margin-left {
+    margin-left: 2.2rem;
+  }
+  

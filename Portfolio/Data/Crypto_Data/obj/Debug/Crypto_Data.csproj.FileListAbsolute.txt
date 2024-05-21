@@ -1,0 +1,40 @@
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Crypto_Data.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Crypto_Data.pdb
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Newtonsoft.Json.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Newtonsoft.Json.xml
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\obj\Debug\Crypto_Data.csproj.AssemblyReference.cache
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\obj\Debug\Crypto_Data.csproj.CoreCompileInputs.cache
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\obj\Debug\Crypto_D.A41E40B4.Up2Date
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\obj\Debug\Crypto_Data.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\obj\Debug\Crypto_Data.pdb
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Crypto_Data\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\obj\Debug\Crypto_Data.csproj.AssemblyReference.cache
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\obj\Debug\Crypto_Data.csproj.CoreCompileInputs.cache
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\obj\Debug\Crypto_Data.dll
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\obj\Debug\Crypto_Data.pdb
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Crypto_Data.dll
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Crypto_Data.pdb
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\Crypto_Data\obj\Debug\Crypto_Data.csproj.CopyComplete
