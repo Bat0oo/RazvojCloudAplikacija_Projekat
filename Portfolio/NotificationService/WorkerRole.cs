@@ -1,11 +1,9 @@
-using Microsoft.WindowsAzure;
-using Microsoft.WindowsAzure.Diagnostics;
+using Contracts;
 using Microsoft.WindowsAzure.ServiceRuntime;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net;
+using System.ServiceModel;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -15,7 +13,8 @@ namespace NotificationService
     {
         private readonly CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
         private readonly ManualResetEvent runCompleteEvent = new ManualResetEvent(false);
-
+        ServiceHost serviceHost;
+        private string internalEndpointName = "HealthCheck";
         public override void Run()
         {
             Trace.TraceInformation("NotificationService is running");
@@ -38,8 +37,27 @@ namespace NotificationService
             // Set the maximum number of concurrent connections
             ServicePointManager.DefaultConnectionLimit = 12;
 
-            // For information on handling configuration changes
-            // see the MSDN topic at https://go.microsoft.com/fwlink/?LinkId=166357.
+           
+            try
+            {
+
+                var endpoint = RoleEnvironment.CurrentRoleInstance.InstanceEndpoints["HealthCheck"];
+                var endpointAddress = $"net.tcp://{endpoint.IPEndpoint}/Service";
+                serviceHost = new ServiceHost(typeof(ReportStatus), new Uri(endpointAddress));
+                NetTcpBinding binding = new NetTcpBinding();
+                serviceHost.AddServiceEndpoint(typeof(ICheckServiceStatus), binding, endpointAddress);
+                serviceHost.Open();
+                Trace.TraceInformation("NotificationServiceOpen.");
+
+
+            }
+            catch
+            {
+                serviceHost.Abort();
+            }
+
+
+
 
             bool result = base.OnStart();
 
@@ -52,22 +70,27 @@ namespace NotificationService
         {
             Trace.TraceInformation("NotificationService is stopping");
 
-            this.cancellationTokenSource.Cancel();
-            this.runCompleteEvent.WaitOne();
+           
 
             base.OnStop();
 
             Trace.TraceInformation("NotificationService has stopped");
         }
 
+       
+
+       
+
+
         private async Task RunAsync(CancellationToken cancellationToken)
         {
             // TODO: Replace the following with your own logic.
             while (!cancellationToken.IsCancellationRequested)
             {
-                Trace.TraceInformation("Working");
+                // Trace.TraceInformation("Working");
                 await Task.Delay(1000);
             }
         }
+
     }
 }

@@ -14,17 +14,26 @@
     </ConfigurationSettings>
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
+      <InternalEndpoint name="HealthCheck" protocol="tcp" />
     </Endpoints>
   </WebRole>
   <WorkerRole name="NotificationService" vmsize="Standard_D1_v2">
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
+    <Endpoints>
+      <InternalEndpoint name="HealthCheck" protocol="tcp" />
+    </Endpoints>
   </WorkerRole>
   <WorkerRole name="HealthMonitoringService" vmsize="Standard_D1_v2">
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="DataConnectionString" />
     </ConfigurationSettings>
+    <Endpoints>
+      <InternalEndpoint name="NotificationHealth" protocol="tcp" />
+      <InternalEndpoint name="PortfolioHealth" protocol="tcp" />
+    </Endpoints>
   </WorkerRole>
   <WebRole name="HealthStatusService" vmsize="Standard_D1_v2">
     <Sites>
@@ -38,7 +47,7 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
     <Endpoints>
-      <InputEndpoint name="Endpoint1" protocol="http" port="8080" />
+      <InputEndpoint name="Endpoint1" protocol="http" port="8081" />
     </Endpoints>
   </WebRole>
 </ServiceDefinition>

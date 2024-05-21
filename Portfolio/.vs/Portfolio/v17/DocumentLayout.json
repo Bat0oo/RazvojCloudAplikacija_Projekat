@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|c:\\users\\urke\\documents\\github\\razvojcloudaplikacija_projekat\\portfolio\\portfolioservice\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|c:\\users\\urke\\documents\\github\\razvojcloudaplikacija_projekat\\portfolio\\portfolioservice\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CC03468-7C37-4914-9B16-5A809FBC937F}|HealthStatusService\\HealthStatusService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\healthstatusservice\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6CC03468-7C37-4914-9B16-5A809FBC937F}|HealthStatusService\\HealthStatusService.csproj|solutionrelative:healthstatusservice\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3ABCA35-9765-43D0-868E-94C47052FB6C}|HealthStatusService\\HealthStatusService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\healthstatusservice\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A3ABCA35-9765-43D0-868E-94C47052FB6C}|HealthStatusService\\HealthStatusService.csproj|solutionrelative:healthstatusservice\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E448CE84-A888-49B7-AF03-82831879E9D7}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1612F86C-A5B7-4B23-9B28-FD0D7D0675E4}|HealthMonitoringService\\HealthMonitoringService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\healthmonitoringservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1612F86C-A5B7-4B23-9B28-FD0D7D0675E4}|HealthMonitoringService\\HealthMonitoringService.csproj|solutionrelative:healthmonitoringservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5977E49D-DAFC-4279-A04B-404DAEB0217B}|HealthMonitoringService\\HealthMonitoringService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\healthmonitoringservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5977E49D-DAFC-4279-A04B-404DAEB0217B}|HealthMonitoringService\\HealthMonitoringService.csproj|solutionrelative:healthmonitoringservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C82768FC-7921-4D19-BB03-3F20C20EEFDD}|NotificationService\\NotificationService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\notificationservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C82768FC-7921-4D19-BB03-3F20C20EEFDD}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B736F84-027A-4EBE-A729-5D2F83852097}|NotificationService\\NotificationService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\notificationservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B736F84-027A-4EBE-A729-5D2F83852097}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\PortfolioService\\Views\\Web.config",
               "RelativeDocumentMoniker": "PortfolioService\\Views\\Web.config",
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\HealthStatusService\\Views\\Web.config",
               "RelativeDocumentMoniker": "HealthStatusService\\Views\\Web.config",
@@ -87,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\PortfolioService\\Web.config",
               "RelativeDocumentMoniker": "PortfolioService\\Web.config",
@@ -95,12 +95,11 @@
               "RelativeToolTip": "PortfolioService\\Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-17T18:00:22.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T18:00:22.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\PortfolioService\\Models\\User.cs",
               "RelativeDocumentMoniker": "PortfolioService\\Models\\User.cs",
@@ -112,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\PortfolioService\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "PortfolioService\\Controllers\\UserController.cs",

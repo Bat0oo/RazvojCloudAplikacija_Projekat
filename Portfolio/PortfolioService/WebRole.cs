@@ -4,15 +4,32 @@ using Microsoft.WindowsAzure.ServiceRuntime;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
+using User_Data;
+using PortfolioService.Models;
+using Contracts;
+using System.Threading;
 
 namespace PortfolioService
 {
     public class WebRole : RoleEntryPoint
     {
+        private string internalEndpointName = "HealthCheck";
+
+       
+
         public override bool OnStart()
         {
-            // For information on handling configuration changes
-            // see the MSDN topic at https://go.microsoft.com/fwlink/?LinkId=166357.
+            var endpoint = RoleEnvironment.CurrentRoleInstance.InstanceEndpoints["HealthCheck"];
+            var endpointAddress = $"net.tcp://{endpoint.IPEndpoint}/Service";
+            ServiceHost serviceHost = new ServiceHost(typeof(ReportStatus));
+            NetTcpBinding binding = new NetTcpBinding();
+            serviceHost.AddServiceEndpoint(typeof(ICheckServiceStatus), binding, endpointAddress);
+            serviceHost.Open();
+            Console.WriteLine("Server ready and waiting for requests.");
+
+            
+
 
             return base.OnStart();
         }

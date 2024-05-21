@@ -1,0 +1,23 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Emulator config file set to C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\NotificationService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] DiagnosticsStoreRootPath set to: C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\NotificationService\approot
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Loading config file: C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\NotificationService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Config file to read: C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\NotificationService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Emulator config file set to C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\NotificationService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:38] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Found a DiagnosticsPlugin.exe. WadArguments: "C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\plugins\Diagnostics\DiagnosticsPlugin.exe" DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5.
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Found a DiagnosticsPlugin.exe. WadArguments: "C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\HealthStatusService\plugins\Diagnostics\DiagnosticsPlugin.exe" DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5.
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Found a DiagnosticsPlugin.exe. WadArguments: "C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\NotificationService\plugins\Diagnostics\DiagnosticsPlugin.exe" DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5.
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Loading config file: C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\NotificationService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Config file to read: C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\NotificationService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:52:39] Found a DiagnosticsPlugin.exe. WadArguments: "C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\plugins\Diagnostics\DiagnosticsPlugin.exe" DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5.
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:53:39] Forcefully terminated DiagnosticsPlugin.exe process with pid 752
+DiagnosticsPluginLauncher.exe Information: 0 : [21-May-24 19:53:39] Found a DiagnosticsPlugin.exe. WadArguments: "C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Portfolio\csx\Debug\roles\HealthStatusService\plugins\Diagnostics\DiagnosticsPlugin.exe" DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5.

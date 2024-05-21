@@ -5,6 +5,8 @@ using System.Net.Http;
 using System.Web.Http;
 using User_Data;
 
+
+
 namespace PortfolioService.Controllers
 {
     public class RegisterController : ApiController
@@ -28,6 +30,7 @@ namespace PortfolioService.Controllers
         [Route("api/register")]
         public HttpResponseMessage Register([FromBody] UserData user)
         {
+            
             try
             {
                 Console.WriteLine("firstName: " + user.FirstName);
