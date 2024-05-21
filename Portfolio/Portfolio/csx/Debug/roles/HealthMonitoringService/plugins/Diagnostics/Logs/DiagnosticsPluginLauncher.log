@@ -1,19 +1,20 @@
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:34] At least one other instance of the launcher is running. Will wait until they all finish
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Service running in Emulator Mode, will not wait/kill other instances of the launcher
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Emulator config file set to C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] DiagnosticsStoreRootPath set to: C:\Users\Urke\AppData\Local\dftmp\Resources\a5c7a501-952d-4f30-83ba-a47babe6811c
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Loading config file: C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Config file to read: C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Checking VM Type
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Emulator config file set to C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Extension set to Emulator Mode
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Reading XML configuration file
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Bypassing private config decryption
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Stopping the running plugin, if any
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] No DiagnosticsPlugin is running.
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Killing any DiagnosticsPlugin that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Killing any MonAgentHost that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Diagnostics plugin stopped successfully
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:30:35] Resetting DiagnosticPlugin
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:31:46] DiagnosticsPlugin launched successfully with new configuration
-DiagnosticsPluginLauncher.exe Information: 0 : [19-May-24 14:31:46] DiagnosticPlugin exited with code 0
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Emulator config file set to C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] DiagnosticsStoreRootPath set to: C:\Users\Arsenije\AppData\Local\dftmp\Resources\e50662e0-a9d2-42ac-8ce9-3bf21d7de0ea
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Loading config file: C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Config file to read: C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Emulator config file set to C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:12] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:13] Found a MonAgentHost.exe. WadArguments: "C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\PortfolioService\plugins\Diagnostics\Monitor\x64\MonAgentHost.exe" -LocalPath "C:\Users\Arsenije\AppData\Local\dftmp\Resources\e86c694e-ad2b-44b0-b24a-784912bffeaf\WAD0105"  -ConfigFile "C:\Users\Arsenije\AppData\Local\dftmp\Resources\e86c694e-ad2b-44b0-b24a-784912bffeaf\WAD0105\Configuration\MaConfig.xml" -ShutDownEvent WADDM-ShutDown-b8410beac50247079410dc8342e07084  -TotalShutDownEvent WADDM-TotalShutDown-b8410beac50247079410dc8342e07084 -InitializedEvent WADM-StartUp-b8410beac50247079410dc8342e07084 -parent 9644 -events -wadVer1v5 -UseProxyServer -XStoreAccounts WadAccount#true#devstoreaccount1#Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==#http://127.0.0.1:10002#http://127.0.0.1:10001#http://127.0.0.1:10000.
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:13] Found a MonAgentHost.exe. WadArguments: "C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthStatusService\plugins\Diagnostics\Monitor\x64\MonAgentHost.exe" -LocalPath "C:\Users\Arsenije\AppData\Local\dftmp\Resources\14a76686-c97c-4442-b44a-f28f17fa9ee7\WAD0105"  -ConfigFile "C:\Users\Arsenije\AppData\Local\dftmp\Resources\14a76686-c97c-4442-b44a-f28f17fa9ee7\WAD0105\Configuration\MaConfig.xml" -ShutDownEvent WADDM-ShutDown-2b6bcf53ab38464395b1329c30daf14c  -TotalShutDownEvent WADDM-TotalShutDown-2b6bcf53ab38464395b1329c30daf14c -InitializedEvent WADM-StartUp-2b6bcf53ab38464395b1329c30daf14c -parent 22736 -events -wadVer1v5 -UseProxyServer -XStoreAccounts WadAccount#true#devstoreaccount1#Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==#http://127.0.0.1:10002#http://127.0.0.1:10001#http://127.0.0.1:10000.
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:13] Found a DiagnosticsPlugin.exe. WadArguments: "C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\PortfolioService\plugins\Diagnostics\DiagnosticsPlugin.exe" DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5.
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:13] Found a DiagnosticsPlugin.exe. WadArguments: "C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthStatusService\plugins\Diagnostics\DiagnosticsPlugin.exe" DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5.
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:13] Loading config file: C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:13] Config file to read: C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\csx\Debug\roles\HealthMonitoringService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:13] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [20.5.2024. 14:43:13] Bypassing private config decryption

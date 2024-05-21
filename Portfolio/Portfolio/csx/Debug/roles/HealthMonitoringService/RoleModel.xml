@@ -16,7 +16,7 @@
   </Runtime>
   <Properties>
     <Property name="TargetFrameworkVersion" value="v4.5.1" />
-    <Property name="OutputDir" value="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\obj\Debug\HealthMonitoringService\" />
+    <Property name="OutputDir" value="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\obj\Debug\HealthMonitoringService\" />
     <Property name="RoleTargetFramework" value="v4.5.1" />
     <Property name="SitePhysicalPath" value="" />
     <Property name="EntryPoint" value="HealthMonitoringService.dll" />

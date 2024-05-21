@@ -26,10 +26,10 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\rcf\Debug\PortfolioServiceContent\" />
+        <SourceDirectory path="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\rcf\Debug\PortfolioServiceContent\" />
       </Content>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\ecf\PortfolioServiceContent\" />
+        <SourceDirectory path="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\ecf\PortfolioServiceContent\" />
       </Content>
     </Contents>
     <Imports>
@@ -42,10 +42,10 @@
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\rcf\Debug\NotificationServiceContent\" />
+        <SourceDirectory path="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\rcf\Debug\NotificationServiceContent\" />
       </Content>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\ecf\NotificationServiceContent\" />
+        <SourceDirectory path="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\ecf\NotificationServiceContent\" />
       </Content>
     </Contents>
     <Imports>
@@ -58,10 +58,10 @@
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\rcf\Debug\HealthMonitoringServiceContent\" />
+        <SourceDirectory path="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\rcf\Debug\HealthMonitoringServiceContent\" />
       </Content>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\ecf\HealthMonitoringServiceContent\" />
+        <SourceDirectory path="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\ecf\HealthMonitoringServiceContent\" />
       </Content>
     </Contents>
     <Imports>
@@ -84,10 +84,10 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\rcf\Debug\HealthStatusServiceContent\" />
+        <SourceDirectory path="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\rcf\Debug\HealthStatusServiceContent\" />
       </Content>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\ecf\HealthStatusServiceContent\" />
+        <SourceDirectory path="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\ecf\HealthStatusServiceContent\" />
       </Content>
     </Contents>
     <Imports>

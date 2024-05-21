@@ -16,12 +16,12 @@
   </Runtime>
   <Properties>
     <Property name="TargetFrameworkVersion" value="v4.5.1" />
-    <Property name="OutputDir" value="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\Portfolio\obj\Debug\PortfolioService\" />
+    <Property name="OutputDir" value="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Portfolio\obj\Debug\PortfolioService\" />
     <Property name="RoleTargetFramework" value="v4.5.1" />
-    <Property name="SitePhysicalPath" value="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\" />
+    <Property name="SitePhysicalPath" value="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\PortfolioService\" />
     <Property name="EntryPoint" value="PortfolioService.dll" />
     <Property name="SetPlatform" value="Platform=AnyCPU" />
-    <Property name="SourceDir" value="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\" />
+    <Property name="SourceDir" value="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\PortfolioService\" />
     <Property name="RoleType" value="Web" />
     <Property name="Platform" value="AnyCPU" />
     <Property name="RoleName" value="PortfolioService" />
@@ -31,7 +31,7 @@
     <Property name="TargetRuntimeVersion" value="v4.0" />
   </Properties>
   <Sites>
-    <Site name="Web" physicalDirectory="C:\Users\Urke\Desktop\CloudProjekat\Portfolio\PortfolioService\">
+    <Site name="Web" physicalDirectory="C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\PortfolioService\">
       <Bindings>
         <Binding name="Endpoint1" endpointName="Endpoint1" />
       </Bindings>

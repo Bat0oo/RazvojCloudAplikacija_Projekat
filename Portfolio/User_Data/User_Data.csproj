@@ -150,6 +150,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UserCredentialsDTO.cs" />
     <Compile Include="UserData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserDataRepository.cs" />

@@ -1,0 +1,33 @@
+/* Header.css */
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 2px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #f8f9fa;
+  }
+  
