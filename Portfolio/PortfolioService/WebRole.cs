@@ -9,6 +9,8 @@ using User_Data;
 using PortfolioService.Models;
 using Contracts;
 using System.Threading;
+using NotificationService;
+using Alarm_Data;
 
 namespace PortfolioService
 {
@@ -20,6 +22,9 @@ namespace PortfolioService
 
         public override bool OnStart()
         {
+            AlarmDataRepository adr = new AlarmDataRepository();
+
+
             var endpoint = RoleEnvironment.CurrentRoleInstance.InstanceEndpoints["HealthCheck"];
             var endpointAddress = $"net.tcp://{endpoint.IPEndpoint}/Service";
             ServiceHost serviceHost = new ServiceHost(typeof(ReportStatus));

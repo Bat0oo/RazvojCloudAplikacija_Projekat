@@ -7,6 +7,7 @@ import User from './Components/User';
 import PortfolioPage from './Components/PortfolioPage';
 import LandingPage from './Components/LandingPage';
 import Profile from './Components/Profile';
+import Alarm from './Components/Alarm';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Route exact path="/user" element={<User />} />
     <Route exact path="/portfolio" element={<PortfolioPage />} />
     <Route exact path="/profile" element={<Profile />} />
+    <Route exact path="/alarm" element={<Alarm />} />
   </Routes>
 </Router>
   );

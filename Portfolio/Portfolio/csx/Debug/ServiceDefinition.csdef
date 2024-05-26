@@ -21,7 +21,7 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
     <Endpoints>
-      <InputEndpoint name="Endpoint1" protocol="http" port="80" localPort="80" />
+      <InputEndpoint name="Endpoint1" protocol="http" port="5000" localPort="5000" />
       <InternalEndpoint name="HealthCheck" protocol="tcp" />
     </Endpoints>
     <Certificates />

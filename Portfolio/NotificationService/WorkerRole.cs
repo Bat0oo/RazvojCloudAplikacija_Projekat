@@ -41,8 +41,9 @@ namespace NotificationService
             try
             {
 
-                var endpoint = RoleEnvironment.CurrentRoleInstance.InstanceEndpoints["HealthCheck"];
-                var endpointAddress = $"net.tcp://{endpoint.IPEndpoint}/Service";
+                //var endpoint = RoleEnvironment.CurrentRoleInstance.InstanceEndpoints["HealthCheck"];
+                //var endpointAddress = $"net.tcp://{endpoint.IPEndpoint}/Service";
+                var endpointAddress = $"net.tcp://127.0.0.1:2001/Service";
                 serviceHost = new ServiceHost(typeof(ReportStatus), new Uri(endpointAddress));
                 NetTcpBinding binding = new NetTcpBinding();
                 serviceHost.AddServiceEndpoint(typeof(ICheckServiceStatus), binding, endpointAddress);

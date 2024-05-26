@@ -193,8 +193,12 @@ namespace HealthMonitoringService
         public void ConnecToNotificationService()
         {
             var binding = new NetTcpBinding();
-            var endpoint = RoleEnvironment.Roles["NotificationService"].Instances[0].InstanceEndpoints["HealthCheck"];
-            var address = new EndpointAddress($"net.tcp://{endpoint.IPEndpoint}/Service");
+
+            var address = new EndpointAddress($"net.tcp://127.0.0.1:2001/Service");
+
+            //var endpoint = RoleEnvironment.Roles["NotificationService"].Instances[0].InstanceEndpoints["HealthCheck"];           
+
+            //var address = new EndpointAddress($"net.tcp://{endpoint.IPEndpoint}/Service");
             ChannelFactory<ICheckServiceStatus> factory = new ChannelFactory<ICheckServiceStatus>(binding, address);
             serviceNotificationProxy = factory.CreateChannel(); // Initialize the second proxy
 

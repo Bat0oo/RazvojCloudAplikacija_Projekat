@@ -1,0 +1,51 @@
+.portfolio-container {
+    text-align: center;
+}
+
+.crypto-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.crypto-container ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.crypto-form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.add-buy-container,
+.sell-container {
+    margin: 20px;
+    width: 50%;
+}
+
+.transaction-history {
+    text-align: center;
+}
+
+.transaction-history table {
+    margin: auto;
+    width: 80%;
+}
+
+.buy-btn {
+    width: 200px;
+}
+
+.sell-btn {
+    width: 200px;
+}
+

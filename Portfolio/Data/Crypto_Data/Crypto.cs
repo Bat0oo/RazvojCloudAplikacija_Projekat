@@ -22,5 +22,6 @@ namespace Crypto_Data
         public double CurrentPrice { get; set; }
         public string Symbol { get; set; }
         public double Amount { get; set; }
+        public DateTime TransactionDate { get; set; }
     }
 }

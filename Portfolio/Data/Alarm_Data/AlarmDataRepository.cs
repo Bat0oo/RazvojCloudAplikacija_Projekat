@@ -1,11 +1,8 @@
-﻿using Microsoft.WindowsAzure.Storage.Table;
-using Microsoft.WindowsAzure.Storage;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Table;
 using Microsoft.Azure;
+using System.Linq;
+using System;
 
 namespace Alarm_Data
 {
@@ -16,10 +13,17 @@ namespace Alarm_Data
 
         public AlarmDataRepository()
         {
+            string connectionString = CloudConfigurationManager.GetSetting("DataConnectionString");
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                throw new InvalidOperationException("Connection string for Azure Storage is not set.");
+            }
+
             _storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("DataConnectionString"));
-            CloudTableClient tableClient = _storageAccount.CreateCloudTableClient();
+            CloudTableClient tableClient = new CloudTableClient(new Uri(_storageAccount.TableEndpoint.AbsoluteUri), _storageAccount.Credentials);
             _table = tableClient.GetTableReference("AlarmTable");
             _table.CreateIfNotExists();
+
         }
 
         public IQueryable<Alarm> RetrieveAllAlarms()
@@ -32,15 +36,23 @@ namespace Alarm_Data
         public void AddAlarm(Alarm newAlarm)
         {
             TableOperation insertOperation = TableOperation.Insert(newAlarm);
-            _table.Execute(insertOperation);
+            TableResult result = _table.Execute(insertOperation);
         }
 
-        public Alarm GetAlarm(string userEmail, string alarmId)
+        public Alarm GetAlarm(string userEmail)
         {
             var results = from g in _table.CreateQuery<Alarm>()
-                          where g.PartitionKey == userEmail && g.RowKey == alarmId
+                          where g.PartitionKey == userEmail
                           select g;
             return results.FirstOrDefault();
+        }
+
+        public IQueryable<Alarm> GetAlarmsByUserEmail(string userEmail)
+        {
+            var results = from g in _table.CreateQuery<Alarm>()
+                          where g.UserEmail == userEmail
+                          select g;
+            return results;
         }
 
         public void UpdateAlarm(Alarm alarm)
@@ -51,7 +63,7 @@ namespace Alarm_Data
 
         public void RemoveAlarm(string userEmail, string alarmId)
         {
-            Alarm alarm = GetAlarm(userEmail, alarmId);
+            Alarm alarm = GetAlarm(userEmail);
 
             if (alarm != null)
             {
@@ -60,5 +72,4 @@ namespace Alarm_Data
             }
         }
     }
-
 }

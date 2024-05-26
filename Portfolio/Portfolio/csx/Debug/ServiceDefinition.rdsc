@@ -2,6 +2,6 @@
 <serviceContract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" dslVersion="1.0.0.0" name="PortfolioContract" xmlns="http://schemas.microsoft.com/dsltools/Contracts">
   <elements>
     <interface name="HealthStatusService:Endpoint1" url="http://*:8081" />
-    <interface name="PortfolioService:Endpoint1" url="http://*:80" />
+    <interface name="PortfolioService:Endpoint1" url="http://*:5000" />
   </elements>
 </serviceContract>

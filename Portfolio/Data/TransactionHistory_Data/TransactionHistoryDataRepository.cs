@@ -42,5 +42,15 @@ namespace TransactionHistory_Data
                           select g;
             return results.FirstOrDefault();
         }
+
+        public IQueryable<TransactionHistory> GetTransactionsByUserEmail(string userEmail)
+        {
+            var results = from g in _table.CreateQuery<TransactionHistory>()
+                          where g.PartitionKey == userEmail
+                          select g;
+            return results;
+        }
+
+
     }
 }
