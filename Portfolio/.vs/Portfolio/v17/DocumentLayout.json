@@ -23,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\portfolioservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EE3F7DE-E67E-43E6-851D-5EB300B88AC8}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,6 +33,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B736F84-027A-4EBE-A729-5D2F83852097}|NotificationService\\NotificationService.csproj|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\notificationservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B736F84-027A-4EBE-A729-5D2F83852097}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\PortfolioService\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PortfolioService\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,7 +95,8 @@
               "RelativeToolTip": "PortfolioService\\Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-17T18:00:22.563Z"
+              "WhenOpened": "2024-05-17T18:00:22.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\PortfolioService\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "PortfolioService\\Controllers\\UserController.cs",
@@ -123,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\PortfolioService\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PortfolioService\\Controllers\\HomeController.cs",
@@ -135,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "WorkerRole.cs",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\HealthMonitoringService\\WorkerRole.cs",
               "RelativeDocumentMoniker": "HealthMonitoringService\\WorkerRole.cs",
@@ -147,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "WorkerRole.cs",
               "DocumentMoniker": "C:\\Users\\Urke\\Documents\\GitHub\\RazvojCloudAplikacija_Projekat\\Portfolio\\NotificationService\\WorkerRole.cs",
               "RelativeDocumentMoniker": "NotificationService\\WorkerRole.cs",

@@ -9,6 +9,7 @@ using User_Data;
 using PortfolioService.Models;
 using Contracts;
 using System.Threading;
+using NotificationService;
 
 namespace PortfolioService
 {
@@ -22,6 +23,7 @@ namespace PortfolioService
         {
             var endpoint = RoleEnvironment.CurrentRoleInstance.InstanceEndpoints["HealthCheck"];
             var endpointAddress = $"net.tcp://{endpoint.IPEndpoint}/Service";
+            //string endpointAddress = "net.tcp://127.0.0.1:6000/Service";
             ServiceHost serviceHost = new ServiceHost(typeof(ReportStatus));
             NetTcpBinding binding = new NetTcpBinding();
             serviceHost.AddServiceEndpoint(typeof(ICheckServiceStatus), binding, endpointAddress);

@@ -1,6 +1,0 @@
-C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Contracts\bin\Debug\Contracts.dll
-C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Contracts\bin\Debug\Contracts.pdb
-C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Contracts\obj\Debug\Contracts.csproj.AssemblyReference.cache
-C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Contracts\obj\Debug\Contracts.csproj.CoreCompileInputs.cache
-C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Contracts\obj\Debug\Contracts.dll
-C:\Users\Urke\Documents\GitHub\RazvojCloudAplikacija_Projekat\Portfolio\Contracts\obj\Debug\Contracts.pdb

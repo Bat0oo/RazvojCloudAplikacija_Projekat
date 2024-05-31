@@ -1,16 +1,13 @@
-using Microsoft.WindowsAzure;
-using Microsoft.WindowsAzure.Diagnostics;
+using Contracts;
 using Microsoft.WindowsAzure.ServiceRuntime;
+using Microsoft.WindowsAzure.Storage;
+using Polly;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net;
+using System.ServiceModel;
 using System.Threading;
 using System.Threading.Tasks;
-using Contracts;
-using System.ServiceModel;
-using Polly;
 
 namespace HealthMonitoringService
 {
@@ -22,7 +19,8 @@ namespace HealthMonitoringService
         private ICheckServiceStatus serviceNotificationProxy;
         private StatusTableEntry ste;
         private HealthMonitoringService hms;
-        
+
+
         public override void Run()
         {
             Trace.TraceInformation("HealthMonitoringService is running");
@@ -39,19 +37,19 @@ namespace HealthMonitoringService
         }
         private async Task RunWithRetryAsync(CancellationToken token)
         {
-            
+
             var retryPolicy = Policy
                 .Handle<CommunicationException>()
                 .Or<TimeoutException>()
                 .WaitAndRetryAsync(
-                    retryCount: 3, 
+                    retryCount: 3,
                     sleepDurationProvider: retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),
                     onRetry: (exception, timeSpan, retryCount, context) =>
                     {
                         Trace.WriteLine($"Retry {retryCount} encountered a {exception.GetType().Name}. Waiting {timeSpan} before next retry. Exception: {exception.Message}");
                     });
 
-            
+
             await retryPolicy.ExecuteAsync(async () =>
             {
                 await RunAsync(token);
@@ -65,46 +63,78 @@ namespace HealthMonitoringService
                 try
                 {
                     EnsureConnection();
-                    
+
                     await MonitorWebRoleStatusAsync(token);
                 }
                 catch (CommunicationException ex)
                 {
                     Trace.WriteLine($"CommunicationException: {ex.Message}");
-                    throw; 
+                    throw;
                 }
                 catch (TimeoutException ex)
                 {
                     Trace.WriteLine($"TimeoutException: {ex.Message}");
-                    throw; 
+                    throw;
                 }
                 catch (Exception ex)
                 {
                     Trace.WriteLine($"Unexpected exception: {ex.Message}");
-                    throw; 
+                    throw;
                 }
 
-                
+
             }
         }
 
         private async Task MonitorWebRoleStatusAsync(CancellationToken token)
         {
-            
+
 
             bool servicePortfolioAvailable = servicePortfolioProxy.CheckServiceStatus();
             if (servicePortfolioAvailable)
             {
                 Trace.WriteLine("PORTFOLIO is UP!! :)");
-               // ste = new StatusTableEntry("PortfolioStatus","OK");
-               // hms.InsertPortfolioStatus(ste);
+                try
+                {
+
+                    ste = new StatusTableEntry("PortfolioStatus", "OK");
+                    hms.InsertPortfolioStatus(ste);
+                }
+                catch(StorageException ex)
+                {
+                    if(ex.RequestInformation.HttpStatusCode == 409)
+                    {
+                        Trace.WriteLine("OtherInstance already inserted into the table");
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+
             }
             bool notificationServicaAvailable = serviceNotificationProxy.CheckServiceStatus();
             if (notificationServicaAvailable)
             {
                 Trace.WriteLine("NOTIFICATION IS UP :)");
-                //ste = new StatusTableEntry("NotificationStatus", "OK");
-               //hms.InsertNotificationStatus(ste);
+                try
+                {
+                    ste = new StatusTableEntry("NotificationStatus", "OK");
+                    hms.InsertNotificationStatus(ste);
+
+                }
+                catch (StorageException ex)
+                {
+                    if (ex.RequestInformation.HttpStatusCode == 409)
+                    {
+                        Trace.WriteLine("OtherInstance already inserted into the table");
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+
             }
 
 
@@ -148,17 +178,33 @@ namespace HealthMonitoringService
             if (servicePortfolioProxy == null)
             {
                 ConnecToPortfolio();
-            }            
+            }
             try
             {
-                servicePortfolioProxy.CheckServiceStatus(); 
+                servicePortfolioProxy.CheckServiceStatus();
             }
-            
-            catch (CommunicationException ex)
+
+            catch (CommunicationException ce)
             {
                 Trace.WriteLine("PORTFOLIO is down (CommunicationException). Reconnecting...");
-                //ste = new StatusTableEntry("PortfolioStatus", "NOT_OK");
-               // hms.InsertPortfolioStatus(ste);
+                try
+                {
+                    ste = new StatusTableEntry("PortfolioStatus", "NOT_OK");
+                    hms.InsertPortfolioStatus(ste);
+                }
+                catch (StorageException ex)
+                {
+                    if (ex.RequestInformation.HttpStatusCode == 409)
+                    {
+                        Trace.WriteLine("OtherInstance already inserted into the table");
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+
+
                 ConnecToPortfolio();
             }
             if (serviceNotificationProxy == null)
@@ -169,12 +215,30 @@ namespace HealthMonitoringService
             {
                 serviceNotificationProxy.CheckServiceStatus();
             }
-            catch (CommunicationException ex)
+            catch (CommunicationException ce)
             {
                 Trace.WriteLine("NOTIFICATION is down (CommunicationException). Reconnecting...");
-               // ste = new StatusTableEntry("NotificationStatus", "NOT_OK");
-               // hms.InsertNotificationStatus(ste);
+
+                try
+                {
+                    ste = new StatusTableEntry("NotificationStatus", "NOT_OK");
+                    hms.InsertNotificationStatus(ste);
+                }
+                catch (StorageException ex)
+                {
+                    if (ex.RequestInformation.HttpStatusCode == 409)
+                    {
+                        Trace.WriteLine("OtherInstance already inserted into the table");
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+
+
                 ConnecToNotificationService();
+
             }
 
         }
@@ -183,8 +247,9 @@ namespace HealthMonitoringService
         {
             var endpoint = RoleEnvironment.Roles["PortfolioService"].Instances[0].InstanceEndpoints["HealthCheck"];
             var address = new EndpointAddress($"net.tcp://{endpoint.IPEndpoint}/Service");
+            //var address = new EndpointAddress("net.tcp://127.0.0.1:6000/Service");
             var binding = new NetTcpBinding();
-            
+
             ChannelFactory<ICheckServiceStatus> factory = new ChannelFactory<ICheckServiceStatus>(binding, address);
             servicePortfolioProxy = factory.CreateChannel();
 
@@ -195,10 +260,11 @@ namespace HealthMonitoringService
             var binding = new NetTcpBinding();
             var endpoint = RoleEnvironment.Roles["NotificationService"].Instances[0].InstanceEndpoints["HealthCheck"];
             var address = new EndpointAddress($"net.tcp://{endpoint.IPEndpoint}/Service");
+            //var address = new EndpointAddress("net.tcp://127.0.0.1:20002/Service");
             ChannelFactory<ICheckServiceStatus> factory = new ChannelFactory<ICheckServiceStatus>(binding, address);
             serviceNotificationProxy = factory.CreateChannel(); // Initialize the second proxy
 
-            
+
 
         }
 
