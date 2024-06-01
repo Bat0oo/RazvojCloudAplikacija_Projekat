@@ -22,19 +22,3 @@ D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\TransactionHistory_Dat
 D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\TransactionHistory_Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\TransactionHistory_Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\TransactionHistory_Data\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\TransactionHistory_Data.dll
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\TransactionHistory_Data.pdb
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\Microsoft.WindowsAzure.Storage.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\obj\Debug\TransactionHistory_Data.csproj.AssemblyReference.cache
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\obj\Debug\TransactionHistory_Data.csproj.CoreCompileInputs.cache
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\obj\Debug\TransactionHistory_Data.csproj.CopyComplete
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\obj\Debug\TransactionHistory_Data.dll
-C:\Users\Arsenije\source\repos\CloudProjekat\Portfolio\Data\TransactionHistory_Data\obj\Debug\TransactionHistory_Data.pdb

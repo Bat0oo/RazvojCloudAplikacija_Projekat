@@ -22,19 +22,3 @@ D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Alarm_Data\bin\Debug\M
 D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Alarm_Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Alarm_Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\fakultet\8 - semestar\Cloud\Projekat\PortfolioProjekat\Alarm_Data\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Alarm_Data.dll
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Alarm_Data.pdb
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Microsoft.WindowsAzure.Storage.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\obj\Debug\Alarm_Data.csproj.AssemblyReference.cache
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\obj\Debug\Alarm_Data.csproj.CoreCompileInputs.cache
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\obj\Debug\Alarm_Data.csproj.CopyComplete
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\obj\Debug\Alarm_Data.dll
-C:\Users\Arsenije\Source\Repos\CloudProjekat\Portfolio\Data\Alarm_Data\obj\Debug\Alarm_Data.pdb
