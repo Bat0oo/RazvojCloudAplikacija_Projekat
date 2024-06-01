@@ -9,18 +9,23 @@ namespace Alarm_Data
 {
     public class Alarm : TableEntity
     {
-        public Alarm(string userEmail, string alarmId)
+        public Alarm(string alarmId)
         {
-            this.PartitionKey = userEmail;
+            this.PartitionKey = "AlarmPartition";
             this.RowKey = alarmId;
         }
 
         public Alarm() { }
 
+        public string UserEmail { get; set; }
         public string CryptoSymbol { get; set; }
         public double TargetPrice { get; set; }
-        public bool IsAbove { get; set; }
-        public bool IsBelow { get; set; }
+        public string AboveOrBelow { get; set; }
         public bool IsTriggered { get; set; }
+
+        public static string GeneratePartitionKey()
+        {
+            return Guid.NewGuid().ToString();
+        }
     }
 }

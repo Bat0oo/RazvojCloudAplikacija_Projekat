@@ -1,0 +1,19 @@
+.alarm-list {
+    text-align: center;
+}
+
+.alarm-list table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.alarm-list th,
+.alarm-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 33.33%;
+    box-sizing: border-box;
+    text-align: center;
+}
+

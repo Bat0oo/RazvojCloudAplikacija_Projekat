@@ -19,7 +19,7 @@ namespace PortfolioService
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-            //InitBlobs();
+            InitBlobs();
             //InitTables();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
@@ -31,21 +31,29 @@ namespace PortfolioService
         {
             try
             {
-                // read account configuration settings
                 var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("DataConnectionString"));
-                // create blob container for images
-                CloudBlobClient blobStorage = storageAccount.CreateCloudBlobClient();
-                CloudBlobContainer container = blobStorage.GetContainerReference("vezba");
+                var blobClient = storageAccount.CreateCloudBlobClient();
+                var container = blobClient.GetContainerReference("userimages");
                 container.CreateIfNotExists();
-                // configure container for public access
-                var permissions = container.GetPermissions();
-                permissions.PublicAccess = BlobContainerPublicAccessType.Container;
+
+                var permissions = new BlobContainerPermissions
+                {
+                    PublicAccess = BlobContainerPublicAccessType.Blob
+                };
                 container.SetPermissions(permissions);
             }
-            catch (WebException)
+            catch (StorageException ex)
             {
+                Console.WriteLine($"StorageException: {ex.Message}");
+                throw;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception during blob initialization: {ex.Message}");
+                throw;
             }
         }
+
 
         public void InitTables()
         {

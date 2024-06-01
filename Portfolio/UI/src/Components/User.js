@@ -10,7 +10,7 @@ const User = () => {
     }, []);
 
     const fetchUsers = () => {
-        axios.get('http://localhost:53757/api/user')
+        axios.get('http://localhost:5000/api/user')
             .then(response => {
                 setUsers(response.data);
             })
@@ -25,7 +25,7 @@ const User = () => {
     };
 
     const addUser = () => {
-        axios.post('http://localhost:53757/api/user', newUser)
+        axios.post('http://localhost:5000/api/user', newUser)
             .then(response => {
                 setNewUser({ Id: 7, Name: '', Email: '' });
                 fetchUsers();

@@ -65,10 +65,39 @@ namespace Crypto_Data
         }
         */
 
+        public Crypto GetCryptoBySymbol(string userEmail, string symbol)
+        {
+            var result = (from g in _table.CreateQuery<Crypto>()
+                          where g.PartitionKey == "Crypto" && g.UserEmail == userEmail && g.RowKey == symbol
+                          select g).FirstOrDefault();
+            return result;
+        }
+
+
         public void UpdateCrypto(Crypto crypto)
         {
             TableOperation updateOperation = TableOperation.Replace(crypto);
             _table.Execute(updateOperation);
         }
+
+        public void DeleteCrypto(string userEmail, string symbol)
+        {
+            try
+            {
+                var cryptoToDelete = GetCryptoBySymbol(userEmail, symbol);
+                if (cryptoToDelete != null)
+                {
+                    TableOperation deleteOperation = TableOperation.Delete(cryptoToDelete);
+                    _table.Execute(deleteOperation);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception during delete operation: {ex.Message}");
+                throw;
+            }
+        }
+
+
     }
 }

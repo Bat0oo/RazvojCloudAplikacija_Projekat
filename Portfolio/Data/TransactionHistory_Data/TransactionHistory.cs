@@ -23,5 +23,7 @@ namespace TransactionHistory_Data
         public double Price { get; set; }
         public double TotalValue { get; set; }
         public bool IsPurchase { get; set; }
+        public bool Buy { get; set; }
+        public bool Sell { get; set; }
     }
 }

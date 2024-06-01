@@ -21,7 +21,7 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:64897/api/login', { email, password });
+      const response = await axios.post('http://localhost:5000/api/login', { email, password });
 
       if (response.status === 200) {
         localStorage.setItem('user', JSON.stringify({ email }));
