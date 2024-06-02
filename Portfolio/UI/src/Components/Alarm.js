@@ -72,7 +72,7 @@ const AlarmPage = () => {
 
     const getTopCryptoSymbols = async () => {
         try {
-            const response = await axios.get('http://localhost:8080/https://api.coingecko.com/api/v3/coins/markets', {
+            const response = await axios.get('https://api.coingecko.com/api/v3/coins/markets', {
                 params: {
                     vs_currency: 'usd',
                     per_page: 20,
@@ -125,6 +125,7 @@ const fetchAlarmPrices = async () => {
 };
 
     const handleAddAlarm = async () => {
+        if(cryptoSymbol!=''){
         try {
             const alarmId = `${cryptoSymbol}-${Date.now()}`;
             const newAlarm = {
@@ -140,6 +141,7 @@ const fetchAlarmPrices = async () => {
         } catch (error) {
             console.error('Error adding alarm:', error);
         }
+    }
     };
 
     const getAllAlarms = async (userEmail) => {
@@ -225,7 +227,7 @@ const fetchAlarmPrices = async () => {
                                 <td>{alarm.CryptoSymbol}</td>
                                 <td>{alarm.TargetPrice} USD</td>
                                 {/*<td>{currentValues[alarm.CryptoSymbol.toUpperCase()] !== undefined ? currentValues[alarm.CryptoSymbol.toUpperCase()] : 'Loading...'}</td>*/}
-                                <td>{alarm.IsAbove ? 'Iznad' : 'Ispod'}</td>
+                                <td>{alarm.AboveOrBelow==='above' ? 'Iznad' : 'Ispod'}</td>
                             </tr>
                         ))}
                     </tbody>

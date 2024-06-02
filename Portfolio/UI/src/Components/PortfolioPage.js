@@ -124,24 +124,30 @@ const PortfolioPage = () => {
                     userEmail: user.email,
                     symbol: cryptoSymbol.toUpperCase(),
                     amount: cryptoAmount,
-                    price: cryptoPrice,
-                    transactionDate: new Date(transactionDate).toISOString() 
+                    currentPrice: cryptoPrice,
+                    transactionDate: new Date(transactionDate).toISOString(),
+                    isPurchase: false
                 });
-    
-                const updatedHistory = transactionHistory.map(transaction => {
-                    if (transaction.CryptoSymbol === cryptoSymbol.toUpperCase() && transaction.IsPurchase) {
-                        return { ...transaction, Price: cryptoPrice };
+                
+                // Update the transaction history correctly
+                setTransactionHistory(prevHistory => [
+                    ...prevHistory,
+                    {
+                        CryptoSymbol: cryptoSymbol.toUpperCase(),
+                        TransactionDate: new Date(transactionDate).toISOString(),
+                        Amount: cryptoAmount,
+                        Price: cryptoPrice,
+                        IsPurchase: false
                     }
-                    return transaction;
-                });
-                setTransactionHistory(updatedHistory);
+                ]);
+                
+                getAllCryptos(user.email);
+                getTransactionHistory(user.email);
             } else {
-                console.error('Kriptovaluta koju pokušavate da prodate nije pronađena.');
+                console.error('The cryptocurrency you are trying to sell was not found.');
             }
-            getAllCryptos(user.email);
-            getTransactionHistory(user.email);
         } catch (error) {
-            console.error('Greška prilikom prodaje kriptovalute:', error);
+            console.error('Error selling cryptocurrency:', error);
         }
     };
     
@@ -154,17 +160,24 @@ const PortfolioPage = () => {
                     userEmail: user.email,
                     symbol: cryptoSymbol.toUpperCase(),
                     amount: cryptoAmount,
-                    price: cryptoPrice,
-                    transactionDate: new Date(transactionDate).toISOString() 
+                    currentPrice: cryptoPrice,
+                    transactionDate: new Date(transactionDate).toISOString(),
+                    isPurchase: true,
+                    Buy: true
                 });
     
-                const updatedHistory = transactionHistory.map(transaction => {
-                    if (transaction.CryptoSymbol === cryptoSymbol.toUpperCase() && !transaction.IsPurchase) {
-                        return { ...transaction, Price: cryptoPrice };
+                // Update the transaction history correctly
+                setTransactionHistory(prevHistory => [
+                    ...prevHistory,
+                    {
+                        CryptoSymbol: cryptoSymbol.toUpperCase(),
+                        TransactionDate: new Date(transactionDate).toISOString(),
+                        Amount: cryptoAmount,
+                        Price: cryptoPrice,
+                        IsPurchase: true,
+                        Buy:true
                     }
-                    return transaction;
-                });
-                setTransactionHistory(updatedHistory);
+                ]);
             } else {
                 await axios.post(`http://localhost:5000/api/crypto`, {
                     userEmail: user.email,
@@ -172,16 +185,32 @@ const PortfolioPage = () => {
                     symbol: cryptoSymbol.toUpperCase(),
                     amount: cryptoAmount,
                     currentPrice: cryptoPrice,
-                    initialPrice: cryptoPrice,
-                    transactionDate: new Date(transactionDate).toISOString() 
+                    price: cryptoPrice,
+                    transactionDate: new Date(transactionDate).toISOString(),
+                    isPurchase: true,
+                    Buy: true
                 });
+                
+                // Add to the transaction history for a new crypto
+                setTransactionHistory(prevHistory => [
+                    ...prevHistory,
+                    {
+                        CryptoSymbol: cryptoSymbol.toUpperCase(),
+                        TransactionDate: new Date(transactionDate).toISOString(),
+                        Amount: cryptoAmount,
+                        Price: cryptoPrice,
+                        IsPurchase: true,
+                        Buy: true
+                    }
+                ]);
             }
+    
             getAllCryptos(user.email);
             getTransactionHistory(user.email);
         } catch (error) {
-            console.error('Error adding or buying crypto:', error);
+            console.error('Error adding or buying cryptocurrency:', error);
         }
-    };    
+    };
     
 
     const fetchCryptoPrices = async () => {
@@ -304,7 +333,7 @@ const PortfolioPage = () => {
                                 <td>{new Date(transaction.TransactionDate).toLocaleString()}</td>
                                 <td>{transaction.Amount}</td>
                                 <td>{transaction.Price}</td>
-                                <td>{transaction.IsPurchase ? 'Kupovina' : 'Prodaja'}</td>
+                                <td>{transaction.Buy ? 'Kupovina' : 'Prodaja'}</td>
                             </tr>
                         ))}
                     </tbody>

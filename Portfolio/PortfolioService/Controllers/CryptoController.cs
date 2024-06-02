@@ -98,7 +98,8 @@ namespace PortfolioService.Controllers
                         Amount = crypto.Amount,
                         Price = crypto.CurrentPrice,
                         TotalValue = crypto.Amount * crypto.CurrentPrice,
-                        IsPurchase = true
+                        IsPurchase = true,
+                        Buy=true
                     };
                     _transactionRepository.AddTransaction(transaction);
                 }
@@ -116,7 +117,8 @@ namespace PortfolioService.Controllers
                         Amount = crypto.Amount,
                         Price = crypto.CurrentPrice,
                         TotalValue = crypto.Amount * crypto.CurrentPrice,
-                        IsPurchase = true
+                        IsPurchase = true,
+                        Buy=true
                     };
                     _transactionRepository.AddTransaction(transaction);
                 }
