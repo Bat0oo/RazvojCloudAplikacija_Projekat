@@ -28,4 +28,25 @@ namespace Alarm_Data
             return Guid.NewGuid().ToString();
         }
     }
+
+    public class AlarmLog : TableEntity
+    {
+        public AlarmLog(string logId)
+        {
+            this.PartitionKey = "AlarmLogPartition";
+            this.RowKey = logId;
+        }
+
+        public AlarmLog() { }
+
+        public string AlarmId { get; set; }
+        public DateTime NotificationTime { get; set; }
+        public int EmailsSent { get; set; }
+
+        public static string GeneratePartitionKey()
+        {
+            return Guid.NewGuid().ToString();
+        }
+    }
+
 }

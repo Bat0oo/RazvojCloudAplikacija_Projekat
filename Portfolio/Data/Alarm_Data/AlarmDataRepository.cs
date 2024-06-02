@@ -3,6 +3,9 @@ using Microsoft.WindowsAzure.Storage.Table;
 using Microsoft.Azure;
 using System.Linq;
 using System;
+using Microsoft.WindowsAzure.Storage.Queue;
+using System.Threading.Tasks;
+using Microsoft.WindowsAzure.Storage.Queue.Protocol;
 
 namespace Alarm_Data
 {
@@ -10,6 +13,8 @@ namespace Alarm_Data
     {
         private CloudStorageAccount _storageAccount;
         private CloudTable _table;
+        private CloudTable _alarmLogTable;
+        private CloudQueue _alarmsDoneQueue;
 
         public AlarmDataRepository()
         {
@@ -19,11 +24,38 @@ namespace Alarm_Data
                 throw new InvalidOperationException("Connection string for Azure Storage is not set.");
             }
 
-            _storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("DataConnectionString"));
-            CloudTableClient tableClient = new CloudTableClient(new Uri(_storageAccount.TableEndpoint.AbsoluteUri), _storageAccount.Credentials);
+            _storageAccount = CloudStorageAccount.Parse(connectionString);
+            CloudTableClient tableClient = _storageAccount.CreateCloudTableClient();
             _table = tableClient.GetTableReference("AlarmTable");
-            _table.CreateIfNotExists();
+            _table.CreateIfNotExistsAsync().GetAwaiter().GetResult();
 
+            _alarmLogTable = tableClient.GetTableReference("AlarmLog");
+            _alarmLogTable.CreateIfNotExistsAsync().GetAwaiter().GetResult();
+
+            CloudQueueClient queueClient = _storageAccount.CreateCloudQueueClient();
+            _alarmsDoneQueue = queueClient.GetQueueReference("alarmsdone");
+            _alarmsDoneQueue.CreateIfNotExistsAsync().GetAwaiter().GetResult();
+
+            var permissions = new QueuePermissions();
+            permissions.SharedAccessPolicies.Add("mypolicy", new SharedAccessQueuePolicy
+            {
+                Permissions = SharedAccessQueuePermissions.Add |
+                              SharedAccessQueuePermissions.Read |
+                              SharedAccessQueuePermissions.ProcessMessages |
+                              SharedAccessQueuePermissions.Update,
+                SharedAccessExpiryTime = DateTimeOffset.UtcNow.AddYears(1)
+            });
+            _alarmsDoneQueue.SetPermissions(permissions);
+        }
+
+        public static CloudQueue GetQueueReference(String queueName)
+        {
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("DataConnectionString"));
+            CloudQueueClient queueClient = storageAccount.CreateCloudQueueClient();
+            CloudQueue queue = queueClient.GetQueueReference(queueName);
+            queue.CreateIfNotExists();
+
+            return queue;
         }
 
         public IQueryable<Alarm> RetrieveAllAlarms()
@@ -71,5 +103,19 @@ namespace Alarm_Data
                 _table.Execute(deleteOperation);
             }
         }
+
+        public Alarm GetAlarmById(string id)
+        {
+            TableOperation retrieveOperation = TableOperation.Retrieve<Alarm>("Alarm", id);
+            TableResult result = _table.Execute(retrieveOperation);
+            return result.Result as Alarm;
+        }
+
+        public async Task AddToAlarmsDoneQueueAsync(string alarmId)
+        {
+            CloudQueueMessage message = new CloudQueueMessage(alarmId);
+            await _alarmsDoneQueue.AddMessageAsync(message);
+        }
+
     }
 }

@@ -222,7 +222,8 @@ const fetchAlarmPrices = async () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {alarms.map((alarm, index) => (                            
+                        {alarms.filter(alarm => alarm.IsTriggered === false)
+                        .map((alarm, index) => (                            
                             <tr key={index}>
                                 <td>{alarm.CryptoSymbol}</td>
                                 <td>{alarm.TargetPrice} USD</td>

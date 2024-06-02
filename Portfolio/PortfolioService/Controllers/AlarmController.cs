@@ -83,5 +83,24 @@ namespace PortfolioService.Controllers
             _alarmDataRepository.RemoveAlarm(userEmail, alarmId);
             return Ok("Alarm deleted successfully.");
         }
+
+        [HttpPost]
+        [Route("api/alarmsdone")]
+        public IHttpActionResult ProcessTriggeredAlarms([FromBody] List<string> alarmIds)
+        {
+            foreach (var alarmId in alarmIds)
+            {
+                var alarm = _alarmDataRepository.GetAlarmById(alarmId);
+                if (alarm != null)
+                {
+                    // Logika za ažuriranje portfolija korisnika na osnovu alarma
+                }
+            }
+
+            return Ok("Portfolio updated successfully.");
+        }
+
+
+
     }
 }
