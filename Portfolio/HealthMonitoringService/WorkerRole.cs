@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace HealthMonitoringService
 {
-    public class WorkerRole : RoleEntryPoint
+    public class WorkerRole : RoleEntryPoint, ISetEmail
     {
         private readonly CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
         private readonly ManualResetEvent runCompleteEvent = new ManualResetEvent(false);
@@ -19,7 +19,12 @@ namespace HealthMonitoringService
         private ICheckServiceStatus serviceNotificationProxy;
         private StatusTableEntry ste;
         private HealthMonitoringService hms;
+        private EmailSender eSender = new EmailSender();
+        private string recipiant;
+        
+        
 
+        public string Recipiant { get => recipiant; set => recipiant = value; }
 
         public override void Run()
         {
@@ -62,7 +67,7 @@ namespace HealthMonitoringService
             {
                 try
                 {
-                    EnsureConnection();
+                    await EnsureConnection();
 
                     await MonitorWebRoleStatusAsync(token);
                 }
@@ -97,14 +102,16 @@ namespace HealthMonitoringService
                 try
                 {
 
-                    ste = new StatusTableEntry("PortfolioStatus", "OK");
+                    ste = new StatusTableEntry("PortfolioStatus", "OK");                    
+                    
+                    
                     hms.InsertPortfolioStatus(ste);
                 }
                 catch(StorageException ex)
                 {
                     if(ex.RequestInformation.HttpStatusCode == 409)
                     {
-                        Trace.WriteLine("OtherInstance already inserted into the table");
+                        //Trace.WriteLine("OtherInstance already inserted into the table");
                     }
                     else
                     {
@@ -116,7 +123,7 @@ namespace HealthMonitoringService
             bool notificationServicaAvailable = serviceNotificationProxy.CheckServiceStatus();
             if (notificationServicaAvailable)
             {
-                Trace.WriteLine("NOTIFICATION IS UP :)");
+                Trace.WriteLine("NOTIFICATION IS UP!! :)");
                 try
                 {
                     ste = new StatusTableEntry("NotificationStatus", "OK");
@@ -127,7 +134,7 @@ namespace HealthMonitoringService
                 {
                     if (ex.RequestInformation.HttpStatusCode == 409)
                     {
-                        Trace.WriteLine("OtherInstance already inserted into the table");
+                        //Trace.WriteLine("OtherInstance already inserted into the table");
                     }
                     else
                     {
@@ -173,11 +180,12 @@ namespace HealthMonitoringService
             Trace.TraceInformation("HealthMonitoringService has stopped");
         }
 
-        private void EnsureConnection()
+        private async Task EnsureConnection()
         {
             if (servicePortfolioProxy == null)
             {
                 ConnecToPortfolio();
+                
             }
             try
             {
@@ -190,13 +198,21 @@ namespace HealthMonitoringService
                 try
                 {
                     ste = new StatusTableEntry("PortfolioStatus", "NOT_OK");
+                    
+                    Recipiant = "uros.ivanovski1@gmail.com";                   
+                    await SendEmailNotificationAsync("Portfolio", Recipiant);
+                    
+                    
+                   
+                    
+                    
                     hms.InsertPortfolioStatus(ste);
                 }
                 catch (StorageException ex)
                 {
                     if (ex.RequestInformation.HttpStatusCode == 409)
                     {
-                        Trace.WriteLine("OtherInstance already inserted into the table");
+                        //Trace.WriteLine("OtherInstance already inserted into the table");
                     }
                     else
                     {
@@ -222,13 +238,14 @@ namespace HealthMonitoringService
                 try
                 {
                     ste = new StatusTableEntry("NotificationStatus", "NOT_OK");
+                    await SendEmailNotificationAsync("Notification", Recipiant);
                     hms.InsertNotificationStatus(ste);
                 }
                 catch (StorageException ex)
                 {
                     if (ex.RequestInformation.HttpStatusCode == 409)
                     {
-                        Trace.WriteLine("OtherInstance already inserted into the table");
+                        //Trace.WriteLine("OtherInstance already inserted into the table");
                     }
                     else
                     {
@@ -238,7 +255,7 @@ namespace HealthMonitoringService
 
 
                 ConnecToNotificationService();
-
+                await Task.Delay(5000);
             }
 
         }
@@ -254,6 +271,14 @@ namespace HealthMonitoringService
             servicePortfolioProxy = factory.CreateChannel();
 
         }
+        private async Task SendEmailNotificationAsync(string serviceName, string recipiant)
+        {
+            
+            string subject = $"Critical Error";
+            string body = $"{serviceName} is DOWN!";
+            await eSender.SendEmailAsync(recipiant, subject, body);            
+        }
+
 
         public void ConnecToNotificationService()
         {
@@ -268,5 +293,13 @@ namespace HealthMonitoringService
 
         }
 
+        
+
+        public void SetEmail(string recipiant)
+        {
+            Recipiant = recipiant;
+        }
+
+        
     }
 }
