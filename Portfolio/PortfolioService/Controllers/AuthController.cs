@@ -2,6 +2,7 @@
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Http;
@@ -61,21 +62,24 @@ namespace PortfolioService.Controllers
                 var profilePictureUrl = await UploadImageToBlobAsync(profilePicture, httpRequest["email"]);
 
                 // Kreiranje novog korisnika sa podacima iz zahteva
-                var user = new UserData
-                {
-                    FirstName = httpRequest["firstName"],
-                    LastName = httpRequest["lastName"],
-                    Password = httpRequest["password"],
-                    Email = httpRequest["email"],
-                    Address = httpRequest["address"],
-                    City = httpRequest["city"],
-                    Country = httpRequest["country"],
-                    PhoneNumber = httpRequest["phoneNumber"],
-                    ProfilePicture = profilePictureUrl
-                };
+                //var user = new UserData
+                //{
+                //    FirstName = httpRequest["firstName"],
+                //    LastName = httpRequest["lastName"],
+                //    Password = httpRequest["password"],
+                //    RowKey = httpRequest["email"],
+                //    Address = httpRequest["address"],
+                //    City = httpRequest["city"],
+                //    Country = httpRequest["country"],
+                //    PhoneNumber = httpRequest["phoneNumber"],
+                //    ProfilePicture = profilePictureUrl
+                //};
+
+
+                var user = new UserData(httpRequest["firstName"], httpRequest["lastName"], httpRequest["email"], httpRequest["address"], httpRequest["city"], httpRequest["country"], httpRequest["phoneNumber"], httpRequest["password"], profilePictureUrl);
 
                 // Provera da li korisnik sa istim emailom već postoji
-                if (_userRepository.Exists(user.Email))
+                if (_userRepository.Exists(user.RowKey))
                 {
                     return Request.CreateErrorResponse(HttpStatusCode.Conflict, "Korisnik sa istim emailom već postoji.");
                 }
@@ -87,12 +91,12 @@ namespace PortfolioService.Controllers
             }
             catch (StorageException ex)
             {
-                Console.WriteLine($"Azure Storage Exception: {ex.Message}");
+                Trace.WriteLine($"Azure Storage Exception: {ex.Message}");
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "Greška pri dodavanju korisnika u bazu.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"General Exception: {ex.Message}");
+                Trace.WriteLine($"General Exception: {ex.Message}");
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }

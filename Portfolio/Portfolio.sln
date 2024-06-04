@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthCheck", "HealthCheck"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck", "HealthCheck\HealthCheck.csproj", "{E8255DAC-7EDB-448C-AFED-30ED7F86963F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailConfiguration", "EmailConfiguration\EmailConfiguration.csproj", "{36B91C48-7D23-4035-9CF9-4CD7652703E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{E8255DAC-7EDB-448C-AFED-30ED7F86963F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8255DAC-7EDB-448C-AFED-30ED7F86963F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8255DAC-7EDB-448C-AFED-30ED7F86963F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B91C48-7D23-4035-9CF9-4CD7652703E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B91C48-7D23-4035-9CF9-4CD7652703E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B91C48-7D23-4035-9CF9-4CD7652703E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B91C48-7D23-4035-9CF9-4CD7652703E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

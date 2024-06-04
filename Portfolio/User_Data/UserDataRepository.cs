@@ -4,8 +4,9 @@
     using System.Linq;
     using System;
     using Microsoft.WindowsAzure.Storage.Blob;
+using System.Windows;
 
-    namespace User_Data
+namespace User_Data
     {
         public class UserDataRepository
         {
@@ -100,7 +101,7 @@
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Exception during insert operation: {ex.Message}");
+                    MessageBox.Show($"Exception during insert operation: {ex.Message}");
                     throw;
                 }
             }

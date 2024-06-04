@@ -198,8 +198,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmailSender.cs" />
+    <Compile Include="ErrorMessageEmail.cs" />
     <Compile Include="HealthMonitoringService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetEmail.cs" />
     <Compile Include="StatusTableEntry.cs" />
     <Compile Include="WorkerRole.cs" />
   </ItemGroup>

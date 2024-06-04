@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace HealthMonitoringService
 {
-    public class WorkerRole : RoleEntryPoint, ISetEmail
+    public class WorkerRole : RoleEntryPoint
     {
         private readonly CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
         private readonly ManualResetEvent runCompleteEvent = new ManualResetEvent(false);
@@ -20,11 +20,11 @@ namespace HealthMonitoringService
         private StatusTableEntry ste;
         private HealthMonitoringService hms;
         private EmailSender eSender = new EmailSender();
-        private string recipiant;
+        private SetEmail errorEmail;
         
         
 
-        public string Recipiant { get => recipiant; set => recipiant = value; }
+        
 
         public override void Run()
         {
@@ -157,9 +157,11 @@ namespace HealthMonitoringService
             ServicePointManager.DefaultConnectionLimit = 12;
 
             hms = new HealthMonitoringService();
+            errorEmail = new SetEmail();
 
             ConnecToPortfolio();
             ConnecToNotificationService();
+            OpenSetEmailEndpoint();
 
             bool result = base.OnStart();
 
@@ -198,9 +200,9 @@ namespace HealthMonitoringService
                 try
                 {
                     ste = new StatusTableEntry("PortfolioStatus", "NOT_OK");
-                    
-                    Recipiant = "uros.ivanovski1@gmail.com";                   
-                    await SendEmailNotificationAsync("Portfolio", Recipiant);
+                    ErrorMessageEmail email = errorEmail.RetrieveFrist();
+
+                    await SendEmailNotificationAsync("Portfolio", email.RowKey);
                     
                     
                    
@@ -238,7 +240,8 @@ namespace HealthMonitoringService
                 try
                 {
                     ste = new StatusTableEntry("NotificationStatus", "NOT_OK");
-                    await SendEmailNotificationAsync("Notification", Recipiant);
+                    ErrorMessageEmail email = errorEmail.RetrieveFrist();                    
+                    await SendEmailNotificationAsync("Notification", email.RowKey);
                     hms.InsertNotificationStatus(ste);
                 }
                 catch (StorageException ex)
@@ -294,11 +297,18 @@ namespace HealthMonitoringService
         }
 
         
-
-        public void SetEmail(string recipiant)
+        public void OpenSetEmailEndpoint()
         {
-            Recipiant = recipiant;
+            var endpoint = RoleEnvironment.CurrentRoleInstance.InstanceEndpoints["SetEmail"];
+            var endpointAddress = $"net.tcp://{endpoint.IPEndpoint}/Email";
+            ServiceHost serviceHost = new ServiceHost(typeof(SetEmail));
+            NetTcpBinding binding = new NetTcpBinding();
+            serviceHost.AddServiceEndpoint(typeof(ISetEmail), binding, endpointAddress);
+            serviceHost.Open();
+            Console.WriteLine("Server ready and waiting for requests.");
         }
+
+        
 
         
     }

@@ -11,6 +11,6 @@ namespace Contracts
     public interface ISetEmail
     {
         [OperationContract]
-        void SetEmail(string recipiant);
+        string ConfigureEmail(string recipiant);
     }
 }

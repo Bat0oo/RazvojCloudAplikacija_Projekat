@@ -34,6 +34,7 @@
     <Endpoints>
       <InternalEndpoint name="NotificationHealth" protocol="tcp" />
       <InternalEndpoint name="PortfolioHealth" protocol="tcp" />
+      <InputEndpoint name="SetEmail" protocol="tcp" port="10100" />
     </Endpoints>
   </WorkerRole>
   <WebRole name="HealthStatusService" vmsize="Standard_D1_v2">
